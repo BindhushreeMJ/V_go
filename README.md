@@ -5,9 +5,9 @@ Pesticide sprinkler and automated drip irrigation
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
-char auth[] = "ve4HguMHTWSEcla--71fTtRVe89P3Wrr"; //Enter your Blynk auth token
-char ssid[] = "BINDHU"; //Enter your WIFI name
-char pass[] = "Bindhu@2003"; //Enter your WIFI passowrd
+char auth[] = "auth token"; //Enter your Blynk auth token
+char ssid[] = "ssid"; //Enter your WIFI name
+char pass[] = "pssd"; //Enter your WIFI passowrd
 DHT dht(D7, 11);
 #define IN5  D1
 #define IN6 D2
@@ -117,9 +117,9 @@ Blynk.virtualWrite(V7,LOW);  }
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "ve4HguMHTWSEcla--71fTtRVe89P3Wrr"; //Enter your Blynk auth token
-char ssid[] = "BINDHU"; //Enter your WIFI name
-char pass[] = "Bindhu@2003"; //Enter your WIFI passowrd
+char auth[] = "auth token"; //Enter your Blynk auth token
+char ssid[] = "ssid"; //Enter your WIFI name
+char pass[] = "pssd"; //Enter your WIFI passowrd
 #define ENA D0
 #define IN1 D1
 #define IN2 D2
