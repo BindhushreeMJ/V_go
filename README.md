@@ -23,6 +23,7 @@ int distance;
 int trigPin = D5;   
 int echoPin = D6;   
 
+
 void setup() 
 {
   Serial.begin(9600);
